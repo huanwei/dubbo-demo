@@ -49,7 +49,10 @@ app.jar
 --spring.config.location=/tmp/config/
 ```
 
-
+## validation
+```
+curl http://${consumer_svc_IP}:${consumer_svc_port}/getUser/1
+```
 
 
 
