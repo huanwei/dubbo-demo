@@ -51,7 +51,7 @@ app.jar
 
 ## validation
 ```
-curl http://${consumer_svc_IP}:${consumer_svc_port}/getUser/1
+curl http://${consumer_svc_IP}:${consumer_svc_port}/getUser?id=1
 ```
 
 
